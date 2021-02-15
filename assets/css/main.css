@@ -374,11 +374,39 @@ a.btn-main:hover span {
   }
 }
 
-@media screen and (max-width:320px){
-  .projects {
-    padding-top: 50rem;
+@media screen and (max-width:280px){
+  .projects-section {
+    margin-top: 60vh;
+    padding-top: 60vh;
   }
 }
+@media screen and (max-width:360px){
+  .projects-section {
+    margin-top: 60vh;
+    padding-top: 60vh;
+  }
+}
+
+@media screen and (max-width:415px){
+  .projects-section {
+    margin-top: 20vh;
+    padding-top: 10vh;
+  }
+}
+@media screen and (max-width:540px){
+  .projects-section {
+    margin-top: 20vh;
+    padding-top: 10vh;
+  }
+}
+
+@media screen and (max-width:375px){
+  .projects-section {
+    margin-top: 40vh;
+    padding-top: 10vh;
+  }
+}
+
 /* Skills Section */
 
 
@@ -601,7 +629,7 @@ a.btn-main:hover span {
 /* Back to the top */
 
 #scroll {
-  position:relative;
+  position:fixed;
   right:10px;
   bottom:10px;
   cursor:pointer;
