@@ -363,12 +363,22 @@ a.btn-main:hover span {
   clear: both;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .column {
     width: 100%;
   }
+  .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
+@media screen and (max-width:320px){
+  .projects {
+    padding-top: 50rem;
+  }
+}
 /* Skills Section */
 
 
@@ -591,7 +601,7 @@ a.btn-main:hover span {
 /* Back to the top */
 
 #scroll {
-  position:fixed;
+  position:relative;
   right:10px;
   bottom:10px;
   cursor:pointer;
